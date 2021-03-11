@@ -1,0 +1,148 @@
+- contrôleur de versions
+-Un dépôt Git est un entrepôt virtuel de votre projet. Il vous permet d'enregistrer les versions de votre code et d'y accéder au besoin.
+*Normal commands******************
+cd==>chose directory
+cd..==>back one level
+mkdir==>make directorygit
+ls==>list
+ni==>new item
+
+*Git commands :*******************
+-Initialisez Git:
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+-vérifier que vos paramètres aient bien été pris en compte
+git config --list
+-activer les couleurs afin d’améliorer la lisibilité des différentes branches
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+-initialisé votre dépôt Git:
+git init 
+- pointe vers le dépôt distant:
+git remote add OC https://github.com/OpenClassrooms-Student-Center/ProjetOpenSource.git
+*OC représente le nom court que vous utiliserez ensuite pour appeler votre dépôt. 
+-Clonez le dépôt en local:
+git clone https://github.com/OpenClassrooms-Student-Center/ProjetOpenSource.git
+-connaître les branches présentes dans notre projet:
+git branch
+-créer la branche:
+git branch "le nom de branch"
+-Pour basculer de branche:
+git checkout "le nom de branch"
+-Effacer branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
